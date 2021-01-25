@@ -57,5 +57,11 @@
 
 - git config --global merge.tool vscode
 - git config --global mergetool.vscode.cmd "code --wait $MERGED"
+
+
+
+
+
+อ้างอิง : https://roboleary.net/vscode/2020/09/15/vscode-git.html
   
   
