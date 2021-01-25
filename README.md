@@ -64,5 +64,6 @@
 
 
 อ้างอิง : https://roboleary.net/vscode/2020/09/15/vscode-git.html
+อ้างอิง : https://github.com/github/gitignore
   
   
