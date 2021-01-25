@@ -27,3 +27,6 @@
 - php artisan storage:link
 - cd ..
 - ln -s larasocketdemo/public chatapp
+
+###  commands in one line in CMD:
+  - move .env.example .env & echo ◙◙private_key_maleeta = "maleetatoei" >> .env & php artisan key:generate & php artisan migrate & php artisan config:cache & php artisan route:cache & php artisan view:cache & php artisan storage:link
