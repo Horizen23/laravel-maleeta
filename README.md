@@ -29,4 +29,15 @@
 - ln -s larasocketdemo/public chatapp
 
 ###  commands in one line in CMD:
-  - move .env.example .env & echo ◙◙private_key_maleeta = "maleetatoei" >> .env & php artisan key:generate & php artisan migrate & php artisan config:cache & php artisan route:cache & php artisan view:cache & php artisan storage:link
+  - git init &git remote add production https://github.com/Horizen23/laravel-maleeta.git&git pull production master& composer install --optimize-autoloader --no-dev & move .env.example .env & echo ◙◙private_key_maleeta = "maleetatoei" >> .env & php artisan key:generate & php artisan migrate & php artisan config:cache & php artisan route:cache & php artisan view:cache & php artisan storage:link & start "google" "c:\program files (x86)\Google\Chrome\Application\chrome.exe" "http://127.0.0.1:8000/" & php artisan serv 
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
