@@ -1,4 +1,5 @@
 # install in cmd
+ก่อนอื่นต้องสร้าง databate ชื่อ login_api ตามด้วยตาราง ใน file login_api.sql ครับ  
 มีสองวิธีเลือกแค่ 1 วิธี
 ### 1  commands in two line in CMD:
    ทำทีละขั้นตอน
