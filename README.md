@@ -1,10 +1,10 @@
 # install in cmd
 มีสองวิธีเลือกแค่ 1 วิธี
 ### 1  commands in two line in CMD:
-
-####  1:
+    ทำทีละขั้นตอน
+   ####  ขั้นตอน ที่ 1:
           set _line=DB_CONNECTION=mysql DB_HOST=127.0.0.1 DB_PORT=3306 DB_DATABASE=login_api DB_USERNAME=root DB_PASSWORD=   MEMCACHED_HOST=127.0.0.1 REDIS_HOST=127.0.0.1   private_key_maleeta="maleetatoei"
-####  2:
+   ####  ขั้นตอน 2:
           git init &git remote add production https://github.com/Horizen23/laravel-maleeta.git&git pull production master& composer install --optimize-autoloader --no-dev & move .env.example .env &echo %_line: = >>.env &echo;%>>.env& php artisan key:generate & php artisan migrate & php artisan config:cache & php artisan route:cache & php artisan view:cache & php artisan storage:link & start "google" "c:\program files (x86)\Google\Chrome\Application\chrome.exe" "http://127.0.0.1:8000/" & php artisan serv 
 
 
