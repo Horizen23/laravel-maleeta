@@ -2,7 +2,7 @@
 
 ## List of commands:
 
- # Local:
+ ###  Local:
 
 - **git init
 -- **git add .
@@ -11,7 +11,7 @@
 - **git commit -m "first commit"
 - **git push production master
 
-# Production:
+###  Production:
 
 - **git init
 - **git remote add production https//githubcom/XXX/XXXX.git
