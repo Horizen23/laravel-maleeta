@@ -42,7 +42,20 @@
 - git difftool head head1
 - git --oneline 
 - git push production toei
-  
-  
+
+
+###  config vs code :
+
+- git config --global -e /*ดู config*/
+
+- git config --global core.editor "code --wait"
+
+- git config --global core.editor "code --wait --new-window"
+- git config --global --unset core.editor
+- git config --global diff.tool vscode
+- git config --global difftool.vscode.cmd "code --wait --diff $LOCAL $REMOTE"
+
+- git config --global merge.tool vscode
+- git config --global mergetool.vscode.cmd "code --wait $MERGED"
   
   
