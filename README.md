@@ -39,8 +39,7 @@
 - php artisan storage:link
 - cd ..
 - ln -s larasocketdemo/public chatapp
-
-
+- git difftool head head1
   
   
   
