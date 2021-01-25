@@ -40,10 +40,8 @@
 - cd ..
 - ln -s larasocketdemo/public chatapp
 - git difftool head head1
-  
-  
-  
-  
+- git --oneline 
+- git push production toei
   
   
   
