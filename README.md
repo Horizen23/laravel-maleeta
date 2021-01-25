@@ -1,12 +1,8 @@
 
 
-## หนุกกันนิ
+## List of commands:
 
-
-
-List of commands:
-
- Local:
+ # Local:
 
 - **git init
 -- **git add .
@@ -15,7 +11,7 @@ List of commands:
 - **git commit -m "first commit"
 - **git push production master
 
-Production:
+# Production:
 
 - **git init
 - **git remote add production https//githubcom/XXX/XXXX.git
