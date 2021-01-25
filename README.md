@@ -14,7 +14,7 @@
 ###  Production:
 
 - git init
-- https://github.com/Horizen23/laravel-maleeta.git
+- git remote add production https://github.com/Horizen23/laravel-maleeta.git
 - git pull production master
 - composer install --optimize-autoloader --no-dev
 - mv .env.example .env
