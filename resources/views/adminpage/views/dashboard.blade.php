@@ -73,9 +73,11 @@
                     <h1>History</h1>
                     <p>See All</p>
                 </div>
-                <ul>
-                    <li></li>
-                </ul>
+                    <div class="centerdiv">
+                    <div>
+                        <canvas class="gcanva"id="Doughnut " height="225"></canvas>  
+                    </div>
+                </div>
         </div>
         </div>
         <script>
@@ -85,6 +87,7 @@ var canvasd = document.getElementById('canvasd').getContext('2d');
 var canvasy = document.getElementById('canvasy').getContext('2d');
 var canvasw = document.getElementById('canvasw').getContext('2d');
 var canvasm = document.getElementById('canvasm').getContext('2d');
+var Doughnut  = document.getElementById('Doughnut ').getContext('2d');
 var ed = document.getElementById('ed').getContext('2d');
 
 
@@ -352,6 +355,39 @@ new Chart(canvasy, {
             });
         });
         
+
+
+
+        var myDoughnutChart = new Chart(Doughnut, {
+    type: 'doughnut',
+    data: {
+    datasets: [{
+        data: [10, 20, 30, 50],
+        backgroundColor: [
+                '#343090',
+                '#5f59f7',
+                '#6592fd',
+                '#44c2fd'
+            ],
+            borderAlign:'inner',
+            borderWidth:0.1,
+            weight:1,
+
+    }],
+    labels: [
+        'Red',
+        'Yellow',
+        'Blue'
+    ]
+},options: {
+    cutoutPercentage: 70, 
+}
+
+});
+
+
+
+
         </script>
 
 

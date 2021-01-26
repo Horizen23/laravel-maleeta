@@ -136,7 +136,7 @@ button{
     width: 250px;
     word-wrap: break-word;
   }
-  .listldimg li button.selectimg {
+  .listldimg li div.selectimg {
     -webkit-appearance: none;
     background: var(--background, #ECEFFC);
     color: #646B8C;
@@ -152,7 +152,7 @@ button{
     font-weight: 500;
   }
   
-  .listldimg li button.delertimg {
+  .listldimg li div.delertimg {
     -webkit-appearance: none;
     background: #f75d59;
     color: #ECEFFC;
